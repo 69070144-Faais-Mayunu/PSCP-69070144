@@ -5,8 +5,7 @@ def main():
     F = 1
     while F ** 2 < N:
         F += 1
-    R = N - (F - 1) ** 2
-    if not R % 2:
+    if not (N - (F - 1) ** 2) % 2:
         print(F * 2 - 3)
     else:
         print(F * 2 - 2)
