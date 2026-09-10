@@ -153,8 +153,8 @@ Expected output:
 
 Actual output:
 
-```1text
-
+```text
+1
 ```
 
 Result:
